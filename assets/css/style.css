@@ -1,0 +1,164 @@
+body {
+    background-image: url('.\assets\images\gravel.jpg');
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 900px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.container{
+    position:relative;
+}
+
+.container-index{
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    margin-left: -480px;
+    background-color: #ffffff;
+    width: 920px;
+    height: 400px;
+    border: 2px solid #dddddd;
+    padding: 18px;
+}
+.container-contact{
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    margin-left: -240px;
+    background-color: #ffffff;
+    width: 500px;
+    height: 320px;
+    border: 2px solid #dddddd;
+    padding: 18px;
+}
+.container-profile{
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    margin-left: -240px;
+    background-color: #ffffff;
+    width: 500px;
+    height: 520px;
+    border: 2px solid #dddddd;
+    padding: 18px;
+}
+
+.header{
+    position: fixed;
+    vertical-align: top;
+    left: 0;
+    top: 0;
+    height: 60px;
+    width: 100%;
+    background-color: white;
+}
+
+#header-name{
+    background-color: #4aaaa5;
+    color: white;
+    height: 40px;
+    width: 200px;
+    position: absolute;
+    left: 280px;
+    margin-top: 0;
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 170%;
+    text-align: center;
+}
+.wrapper{
+   display: grid;
+   grid-template-columns: 150px 150px;
+   grid-gap: 20px; 
+}
+img{
+    width:160px;
+    height:110px;
+}
+#about-img{
+    float: left;
+    width:180px;
+    height:180px;
+    margin: 30px;
+}
+
+
+h2{
+    color:#4aaaa5;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+
+hr{
+    width: 100%;
+}
+
+
+.header ul {
+    list-style-type: none;
+    position:absolute;
+    left: 970px;
+    top: 40px;
+}
+
+.header ul li {
+    display: inline;
+    margin: 0 10px 0 10px;
+}
+
+.header ul li a{
+    text-decoration: none;
+}
+
+.header ul li a:hover {
+    color:lightgoldenrodyellow;
+    background-color: dimgray;
+}
+
+.header ul li a:active{
+    color :darkblue;
+    background-color: deepskyblue
+}
+
+
+.footer {
+    position: fixed;
+    font-size: 60%;
+    text-align: center;
+    color: white;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+}
+.footer p{
+    padding-top:25px;
+}
+
+input {
+    width: 90%;
+    margin: 5px;
+  }
+#message{
+    height: 120px;
+    margin-bottom: 0px;
+}
+
+#submit{
+    width:80px;
+    background-color:#4aaaa5;
+    margin-top: 0px;
+    color: white;
+
+}
+
+  #aboutMe { 
+      font-size: 20px;
+  }
+
