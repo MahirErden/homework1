@@ -56,18 +56,27 @@ body {
     background-color: white;
 }
 
-#header-name{
+.header-name{
     background-color: #4aaaa5;
     color: white;
     height: 40px;
     width: 200px;
     position: absolute;
-    left: 280px;
+    
     margin-top: 0;
     padding-top: 20px;
     font-weight: bold;
     font-size: 170%;
     text-align: center;
+}
+#header-index{
+    left: 280px;
+}
+#header-portfolio{
+    left: 520px;
+}
+#header-contact{
+    left: 520px;
 }
 .wrapper{
    display: grid;
@@ -80,14 +89,15 @@ img{
 }
 #about-img{
     float: left;
-    width:180px;
-    height:180px;
-    margin: 30px;
+    width:200px;
+    height:200px;
+    margin: 30px 40px 10px 20px;
 }
 
 
 h2{
     color:#4aaaa5;
+    font-size: 150%;
     font-weight: bold;
     padding-bottom: 10px;
 }
@@ -101,8 +111,17 @@ hr{
 .header ul {
     list-style-type: none;
     position:absolute;
-    left: 970px;
     top: 40px;
+}
+
+#ul-index{
+    left: 970px;
+}
+#ul-contact{
+    left: 850px;
+}
+#ul-portfolio{
+    left: 850px;
 }
 
 .header ul li {
@@ -148,7 +167,10 @@ input {
 #message{
     height: 120px;
     margin-bottom: 0px;
+    text-align: left;
+    vertical-align: top;
 }
+
 
 #submit{
     width:80px;
@@ -158,7 +180,8 @@ input {
 
 }
 
-  #aboutMe { 
+  .aboutMe { 
       font-size: 20px;
+      list-style-type: square;
   }
 

@@ -12,9 +12,9 @@
     <div> class=container
         <div class="header">
             <div>
-                <h1 id="header-name">Mahir Erden</h1>
+                <h1 class="header-name" id="header-contact">Mahir Erden</h1>
             </div>
-            <ul>
+            <ul id="ul-contact">
                 <li><a href="index.html">About</a></li>
                 |
                 <li><a href="portfolio.html">Portfolio</a></li>
@@ -28,14 +28,15 @@
             <h2>Contact</h2>
             <hr>
             <form action="#action_page.html">
-                 Name:<br>
-                <input type="text" name="name" placeholder="Your first name and last name">
+                <span>&nbsp;Name:</span><br>
+                <input type="text" name="name" placeholder="Firstname & Lastname">
                 <br>
-                 Email:<br>
+                <span>&nbsp;Email:</span><br>
                 <input type="text" name="email" placeholder="example@gmail.com">
                 <br>
-                 Message:<br>
-                <input id="message" type="text" name="message" placeholder="Please enter your message...">
+                <span>&nbsp;Message:</span><br>
+                <textarea id="message" rows="5" cols="61" placeholder="Please enter your message..."></textarea>
+                <!-- <input id="message" type="text" name="message" placeholder="Please enter your message...">-->
                 <br><br>
                 <input id="submit" type="submit" value="Submit" onclick="alert('Your message send successfully!')">
             </form> 
